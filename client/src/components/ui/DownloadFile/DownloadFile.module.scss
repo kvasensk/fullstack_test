@@ -1,0 +1,19 @@
+$font: 'Play', sans-serif;
+
+.downloadContainer {
+  h2 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-size: 12px;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #20301e;
+    color: rgb(190, 186, 186);
+    font-family: $font;
+    border-radius: 10px;
+  }
+}

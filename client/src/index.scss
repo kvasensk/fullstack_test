@@ -1,0 +1,22 @@
+$primary-color: rgb(9, 1, 22);
+$bgc-card: rgb(157, 158, 163);
+$font: 'Play', sans-serif;
+$dark-p: #0d1117;
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+body {
+  background-color: $primary-color;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(100, 98, 107);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: $dark-p;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(107, 105, 112);
+  /* border-radius: 3px; */
+}

@@ -1,0 +1,112 @@
+.loginRegContainer {
+  position: absolute;
+  top: 150%;
+  left: 33%;
+  z-index: 70;
+}
+
+.loginRegBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.loginResFrom {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(204, 204, 204);
+  border: solid rgb(156 163 175) 2px;
+  border-radius: 24px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+}
+.logRegH2 {
+  color: rgb(179, 182, 187);
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.logRegInput {
+  font-size: 20px;
+  line-height: 28px;
+  align-content: center;
+  background-color: transparent;
+  border-style: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: rgb(156 163 175);
+}
+
+.logRegInput:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  caret-color: rgb(7, 52, 83);
+}
+
+.logRegInput:-webkit-autofill {
+  transition: all 5000s ease-in-out 0s;
+}
+
+.logResChangeButton,
+.logResAcceptButton,
+.closeRegButton,
+.passwordCheckButton {
+  color: rgb(156 163 175);
+  /* width: 320px; */
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.closeRegButton {
+  position: absolute;
+  left: 85%;
+  top: 24px;
+  font-weight: 700;
+}
+.passwordCheckButton {
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100px;
+}
+.logResAcceptButton {
+  color: rgb(67, 185, 67);
+  font-size: 15px;
+  font-weight: 700;
+}
+.logResChangeButton {
+  color: black;
+  font-size: 12px;
+}
+
+.formLogResBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: transparent;
+}
+
+.passwordBox {
+  display: flex;
+}
+
+.errorMessage {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  color: rgb(255, 153, 0);
+  background-color: rgb(20, 95, 95);
+  padding: 2px;
+  border-radius: 5px;
+  font-weight: 700;
+}

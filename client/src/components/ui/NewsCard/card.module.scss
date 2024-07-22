@@ -1,0 +1,134 @@
+$bgc-card: rgb(157, 158, 163);
+$font: 'Play', sans-serif;
+$dark-p: #0d1117;
+
+.card {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: solid rgb(65, 54, 65) 2px;
+  border-bottom: none;
+  width: 1070px;
+  background-color: rgb(179, 180, 185);
+  .logoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $dark-p;
+    width: 1070px;
+    padding: -12px;
+    max-height: 500px;
+  }
+  div {
+    max-height: 700px;
+  }
+}
+
+.cardHeaderBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  h3 {
+    font-size: 11px;
+    text-align: end;
+    padding-left: 20px;
+  }
+  div {
+    padding-right: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: 20px;
+  }
+}
+
+.cardFooter {
+  display: flex;
+}
+
+.newsFooter,
+.downloadBox {
+  margin-top: -10px;
+  border-top: none;
+  border: solid rgb(65, 54, 65) 2px;
+
+  background-color: $bgc-card;
+  border-top: none;
+  height: 100px;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    font-weight: 700;
+
+    label {
+      font-size: 12px;
+    }
+    li {
+      color: rgb(197, 197, 197);
+      border-radius: 10px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background-color: #494c50;
+      padding-left: 40px;
+      list-style: decimal;
+      width: 1000px;
+      height: 30px;
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+  }
+}
+
+.newsFooter::-webkit-scrollbar,
+.downloadBox::-webkit-scrollbar {
+  width: 8px;
+}
+
+.newsFooter {
+  width: 535px;
+}
+.downloadBox {
+  width: 1070px;
+}
+
+.downloader {
+  border-right: none;
+  li {
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    padding-right: 580px;
+  }
+}
+
+.quoter {
+  border-left: none;
+}
+
+.editor {
+  white-space: pre-wrap;
+  padding: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 650px;
+  min-height: 100px;
+  overflow-y: auto;
+}
+
+.publicationMessage {
+  padding: 10px;
+  background-color: $bgc-card;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: #333;
+}

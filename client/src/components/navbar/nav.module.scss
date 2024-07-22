@@ -1,0 +1,35 @@
+$font: 'Play', sans-serif;
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 70%;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  margin: 40px;
+  h2 {
+    font-size: 30px;
+    width: 180px;
+  }
+  .buttonNavContainer {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .passwordBox {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.NavButtons {
+  cursor: pointer;
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  font-family: $font;
+  font-size: 12px;
+  font-weight: 800;
+}
